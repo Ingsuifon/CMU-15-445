@@ -1,0 +1,1 @@
+SELECT type, COUNT(title_id) nums FROM titles GROUP BY type ORDER BY nums;
